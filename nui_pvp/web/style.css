@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap%27");
+
+* {
+    font-family: "Poppins";
+   }
+
+
+.borda{
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    border: 2px solid rgb(0, 255, 13);
+    border-radius: 10px;
+}
+.carro{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.CarEscrita{
+    position: absolute;
+    left: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+.carzone{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.container .btn1 {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #919191;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .container .btn1:hover {
+    background-color: rgb(82, 82, 82);
+    color: rgb(0, 0, 0);
+  }
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+.Pistolzone{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+.PistolMk2{
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 75px;
+  left: 80px;
+}
+.EscritaPtzone{
+    position: absolute;
+    left: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+.container .btn2 {
+    position: absolute;
+    top: 380px;
+    left: 132%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #919191;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .container .btn2:hover {
+    background-color: rgb(82, 82, 82);
+    color: rgb(0, 0, 0);
+  }
+  .carzone{
+    width: 120px;
+    height: 140px;
+    position: absolute;
+    left: 65px;
+    top: 60px;
+  }
